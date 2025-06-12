@@ -1,43 +1,10 @@
 ## Hi , I am you :)
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Click the Vegetable 🥦</title>
-  <style>
-    body { text-align: center; font-family: sans-serif; background: #f0fff0; }
-    h1 { color: #2e7d32; }
-    #veg { width: 100px; cursor: pointer; position: absolute; }
-  </style>
-</head>
-<body>
-  <h1>🥦 Click the Vegetable!</h1>
-  <p>Score: <span id="score">0</span></p>
-  <img id="veg" src="https://i.ibb.co/0fnLspS/broccoli.png" alt="vegetable" />
+### 🕹️ Mainkan Mini Game-ku di sini!
 
-  <script>
-    const veg = document.getElementById("veg");
-    const scoreDisplay = document.getElementById("score");
-    let score = 0;
+[![Click the Vegetable Game](https://img.shields.io/badge/Click%20the%20Vegetable-Play%20Now-green?style=for-the-badge&logo=github)](https://sayurdev.github.io/vegetable-game)
 
-    function moveVeg() {
-      const x = Math.random() * (window.innerWidth - 100);
-      const y = Math.random() * (window.innerHeight - 100);
-      veg.style.left = `${x}px`;
-      veg.style.top = `${y}px`;
-    }
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" />
 
-    veg.addEventListener("click", () => {
-      score++;
-      scoreDisplay.textContent = score;
-      moveVeg();
-    });
-
-    moveVeg();
-  </script>
-</body>
-</html>
 
 
 <p align="center">
