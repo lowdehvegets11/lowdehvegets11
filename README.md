@@ -1,7 +1,7 @@
 ## Hi , I am you :)
 
 
-[![Play Snake](https://img.shields.io/badge/Snake%20Game-Play%20Now-green?style=for-the-badge&logo=github)](https://sayurdev.github.io/snake-game)
+[![Play Snake](https://img.shields.io/badge/Snake%20Game-Play%20Now-green?style=for-the-badge&logo=github)](https://github.com/lowdehvegets11/snake-game.git)
 
 <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="300" />
 
